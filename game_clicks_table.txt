@@ -1,0 +1,18 @@
+CREATE TABLE public.game_clicks
+(
+    idx integer NOT NULL DEFAULT nextval('game_clicks_idx_seq'::regclass),
+    datetime date,
+    clickid integer,
+    userid integer,
+    usersessionid integer,
+    ishit integer,
+    teamid integer,
+    teamlevel integer
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.game_clicks
+    OWNER to postgres;
