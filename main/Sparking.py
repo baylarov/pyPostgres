@@ -16,8 +16,3 @@ class Sparkling:
     def convert_to_spDF(self,df,columns=title):
         spDF=self.sqlContext.createDataFrame(df,schema=columns)
         return spDF
-
-    @staticmethod
-    def filter_data(data,sep=None):
-        df=data.split("\t")
-        record=df.fil
