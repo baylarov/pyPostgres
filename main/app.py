@@ -1,3 +1,6 @@
+'''
+Several applications.
+'''
 import main.ConnectionPool as cp
 from main.DbQuery import Query
 import main.Sparking as sp

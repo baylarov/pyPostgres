@@ -1,4 +1,6 @@
-1. Created PostgreSQL connection pool.
-2. Modules in order to retrieve and upload data from/to Postgres.
-3. Initialising Spark app and applying data eng. operations on it.
-4. 
+PostgreSQL - Python connection pool:
+************************************
+1. Postgres-Python connection pool using SimpleConnectionPool within max 20 connections.
+2. PySpark applications, such as spark context init and dataFrame converter processes.
+3. Insert and select processes over bulk data on Postgres.
+4. Several sample applications.

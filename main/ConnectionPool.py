@@ -1,6 +1,9 @@
 import psycopg2 as ps
 from psycopg2 import pool
-
+'''
+Postgres connection within SimpleConnectionPool pooling, min and max connections are 1 and 20 respectively.
+Another class covers cursor processes related with DbConnection class.
+'''
 class DbConnection:
 
     connectPool=None

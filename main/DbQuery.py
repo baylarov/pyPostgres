@@ -1,7 +1,10 @@
 import main.ConnectionPool as cp
 from psycopg2 import DatabaseError
 import pandas as pd
-
+'''
+Bulk data selection and insert process.
+Selection process includes "select top n or all rows" queries.
+'''
 class Query:
     title = ['datetime', 'clickid', 'userid', 'usersessionid', 'ishit', 'teamid', 'teamlevel']
     data = None

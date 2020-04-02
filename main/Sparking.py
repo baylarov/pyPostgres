@@ -1,6 +1,8 @@
 from pyspark import SparkConf,SparkContext
 from pyspark.sql import SQLContext
-
+'''
+Spark initilization and DataFrame converter
+'''
 class Sparkling:
     sqlContext = None
     title = ['datetime', 'clickid', 'userid', 'usersessionid', 'ishit', 'teamid', 'teamlevel']
